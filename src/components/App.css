@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100');
+
+body {
+  background-color: #313841
+}
+
+* {
+  color: #C2C198;
+  font-family: 'Josefin Sans';
+}
+
+.header {
+  height: 150px;
+  background-color: #1A2F38;
+  border-bottom: 1px solid #C6C47C;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header h1{
+  font-family: 'Josefin Sans';
+  margin: 0;
+  letter-spacing: 4px;
+  font-weight: 100;
+  font-size: 5em;
+  color: #C6C47C
+}
+.content {
+  width: 720px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.button {
+  padding: 20px;
+  width: 80%;
+  background-color: #203138;
+  border: 1px solid #C6C47C;
+  cursor: pointer;
+}
+
+.login-button {
+  margin: 5px;
+  padding: 10px;
+  width: 50%;
+  background-color: #203138;
+  border: 1px solid #C6C47C;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button-disabled {
+  background-color: #D33A44;
+  cursor: default;
+}
+.button:hover{
+  background-color: #536D79;
+  
+}
+
+.login-button:hover{
+  background-color: #536D79;
+  
+}
+.button-disabled:hover {
+  background-color: #D33A44;
+}
+
+.button h3 {
+  margin: 0;
+  text-align: center;
+}
+
+.data-container {
+  min-height: 600px;
+  background-color: #293A40;
+  border: 1px solid #C6C47C;
+  width: 100%;
+  margin-top: 25px;
+  padding: 20px;
+  
+}
+.data-container p {
+  font-size: 2.1em;
+  text-align: center;
+}
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  position: absolute;
+  top: 10px;
+  right: 50px;
+}
+.login input {
+  background-color: #293A40;
+  border: 1px solid #C6C47C;
+  padding: 5px;
+  font-size: 1.3em;
+  margin: 5px;
+}
+.login input::placeholder {
+  color: #B5B493
+}
