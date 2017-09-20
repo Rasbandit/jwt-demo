@@ -21,4 +21,4 @@ Here is the basic idea behind using JWTs for authentication:
  
 You can see a working demo of this is in the included code. You'll mainly want to look at the `server/index.js`. It is the entirety of the backend, where most of the work is being done. You can also check out the `src/components/app.js` to see how it stores and uses the token the server gives it.
 
-We haven't covered everything there is to knwo about JWTs, just enough to get something working. If you would like to read more about JWTs, I recommend starting with the offical site: https://jwt.io/introduction/
+We haven't covered everything there is to know about JWTs, just enough to get something working. If you would like to read more about JWTs, I recommend starting with the offical site: https://jwt.io/introduction/
