@@ -14,7 +14,7 @@ Here is the basic idea behind using JWTs for authentication:
 2. Your server checks the username and password to see if it matches an existing user and the password.
 3. If it is, it generates or "signs" a JWT using the user's information and a predefined secret.
 4. The server sends the newly created JWT back to the client, and it is the responsibility of the client to remember the token and send it back with every subsequent request.
-5. When the client makes a request to one of your other endpoints it will pass the JWT, hopefully it is the correct one.    (rephrase this last part, it shouldnt sound like it is giving the server a random token.) 
+5. When the client makes a request to one of your other endpoints, it will pass the JWT it was given by server
 6. Your server will look at the token and "verify" it. The server will decrypt it using the secret that it used to originally encode the JWT.
 7. If the server is able to properly verify the token, it will send the request along to its original destination.
 8. If it is unable to verify the token, it will prevent the request from going any further and send an error back.
